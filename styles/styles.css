@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header ul {
+  margin-top: 18px;
+  font-size: 18px;
+}
+
+.nav img {
+  width: 70px;
+  height: 80px;
+}
+/*header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}*/
+
+.banner-section-bg-container {
+  background-image: url("../images/foodmunch-banner-bg.png");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.custom-button {
+  padding: 13px;
+  border-radius: 8px;
+  background: #d0b200;
+  color: white;
+  /* border: none; */
+  margin-right: 5px;
+}
+
+.custom-outline-button {
+  padding: 13px;
+  border-radius: 8px;
+  background: transparent;
+  color: #d0b200;
+  border-color: #d0b200;
+  margin-right: 5px;
+}
+.choose-section img {
+  width: 87px;
+  height: 90px;
+}
